@@ -56,6 +56,9 @@ if [ -n "$MISSING" ] ; then
   echo "✔️  Zsh profile dependencies are installed."
 fi
 
+# Update pkgfile db
+sudo pkgfile --update
+
 # Profile
 cp ./zsh-configs/.p10k.zsh $HOME
 cp ./zsh-configs/.zshrc $HOME
