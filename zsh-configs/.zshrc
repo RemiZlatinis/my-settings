@@ -53,6 +53,9 @@ export PATH=$PATH:$HOME/.local/bin
 # Alias {
   # Django 
   alias djrun="python manage.py runserver"
+  alias djapp="python manage.py startapp"
+  alias djmkm="python manage.py makemigrations"
+  alias djmig="python manage.py migrate"
   
   # Colorize 
   alias ls="ls --color=auto"
